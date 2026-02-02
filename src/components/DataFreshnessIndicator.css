@@ -1,0 +1,114 @@
+.data-freshness {
+  background-color: var(--background-white);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 20px;
+}
+
+.freshness-header {
+  margin-bottom: 20px;
+}
+
+.freshness-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.freshness-description {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.freshness-type-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.freshness-type-selection .radio-wrapper {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+}
+
+.freshness-type-selection .radio-wrapper:has(input:checked) {
+  border-color: var(--primary-blue);
+  background-color: rgba(0, 102, 204, 0.02);
+}
+
+.persistent-settings,
+.live-settings {
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color-light);
+}
+
+.last-sync-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  background-color: var(--background-light);
+  border-radius: var(--radius-sm);
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.sync-icon {
+  color: var(--success-green);
+}
+
+.freshness-preview {
+  margin-top: 16px;
+  padding: 16px;
+  background-color: var(--background-light);
+  border-radius: var(--radius-sm);
+  border-left: 4px solid var(--warning-orange);
+}
+
+.freshness-preview.live {
+  border-left-color: var(--success-green);
+}
+
+.preview-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.preview-icon {
+  font-size: 12px;
+}
+
+.preview-icon.persistent {
+  color: var(--warning-orange);
+}
+
+.preview-icon.live {
+  color: var(--success-green);
+}
+
+.freshness-preview p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.live-settings .info-box {
+  margin-top: 16px;
+}
+
+.live-settings .info-box strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.live-settings .info-box p {
+  margin: 0;
+  font-size: 13px;
+}

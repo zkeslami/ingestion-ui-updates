@@ -1,0 +1,44 @@
+.header {
+  margin-bottom: 24px;
+}
+
+.breadcrumbs {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.breadcrumb-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+.breadcrumb-item a {
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  margin: 0 8px;
+  color: var(--text-muted);
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.header-subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+  max-width: 800px;
+}
+
+.header-subtitle a {
+  color: var(--primary-blue);
+}
